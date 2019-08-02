@@ -1,0 +1,28 @@
+######## Start MongoDB ##############
+show dbs 
+use locals(create or use db) 
+show collections
+db # show current db
+db.createCollection("mycollection") 
+db.mycollection.find() # show all documents from collection
+db.mycollection.find({"town":"Volgograd"}) # find some document
+
+
+db.mycollection.update({}, {$set : {"telefon_code": ""}}, {upsert:false, multi:true}) # add column
+db.mycollection.update({}, {$set: {"population": 50000000}}, {multi:true} # update all field
+db.mycollection.update({"town":"Volgograd"}, {$set: {"population": 1000000}}, {multi:true}) # update where
+db.mycollection.find({"town":"Volgograd"}) # get data where town = Volgograd
+db.mycollection.find({"town":"Volgograd"}, { town: 1, population: 1 }) # get only some fields
+
+
+db.mycollection.find({ population: { $gt: 1000000 } }) # where some field grater than
+db.mycollection.find({ population: { $lt: 4000000 } })
+
+db.mycollection.find({town: /Volgo/})
+
+db.users.insert( {town: "Kishinev", population: 120000} )
+
+db.artists.drop() # delete collections
+db.artists.remove({}) # remove all documents
+######## End MongoDB ##############
+
