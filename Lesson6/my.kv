@@ -1,0 +1,46 @@
+BoxLayout:
+    BoxLayout:
+        id: one
+        orientation: 'horizontal'
+        BoxLayout:
+            size_hint: (.7, 1)
+            orientation: 'vertical'
+            padding: 2
+            spacing: 5
+
+            Label:
+                id: chatname
+                text: '#MainChat'
+                height: '32dp'
+                size_hint_y: .03
+            TextInput:
+                id: text_mainchat
+                size_hint: (1, 1)
+                text: ''
+            CTextInput:
+                id: user_input
+                size_hint_y: None
+                multiline: False
+                height: '32dp'
+                focus: True
+
+        BoxLayout:
+            size_hint: (.3, 1)
+            orientation: 'vertical'
+            padding: 2
+            spacing: 5
+
+            TextInput:
+                id: text_users
+                text: ''
+            Button:
+                id: send_msg
+                text: 'Send'
+                size_hint_y: None
+                height: '32dp'
+                on_release:
+
+<CTextInput@TextInput>
+    on_focus:
+        screen = self.parent
+        if screen.parent: screen.focused = self

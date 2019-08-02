@@ -1,0 +1,320 @@
+2019-08-01 00:25:08,000 INFO Lesson6_server User: Mike_474, Message:{"action": "presence", "time": 1564593906.9995456, "type": "status", "user": {"account_name": "Mike_474", "status": "I am using JIM Messenger !"}}
+2019-08-01 00:25:08,009 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "200", "time": 1564593908.0080283, "alert": "OK!"}'
+2019-08-01 00:25:08,013 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593908.0131884, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 00:25:08,014 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593908.013316, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 00:25:08,014 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593908.0133793, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 00:25:08,014 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593908.0134375, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 00:25:08,014 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593908.013493, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 00:25:08,014 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593908.013557, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 00:25:08,014 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593908.0136213, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 00:25:14,660 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593914.6593888, "alert": "|#mainroom| Mike_474: hjf"}'
+2019-08-01 00:25:14,661 INFO Lesson6_server User: Mike_474, Message:{"action": "msg", "time": 1564593914.6579173, "to": "#mainroom", "from": "Mike_474", "message": "hjf"}
+2019-08-01 00:25:14,663 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "200", "time": 1564593914.662044, "alert": "OK!"}'
+2019-08-01 00:25:19,668 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593919.6678925, "alert": "|#mainroom| Mike_474: hgfj"}'
+2019-08-01 00:25:19,669 INFO Lesson6_server User: Mike_474, Message:{"action": "msg", "time": 1564593917.6803029, "to": "#mainroom", "from": "Mike_474", "message": "hgfj"}
+2019-08-01 00:25:19,670 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "200", "time": 1564593919.6699505, "alert": "OK!"}'
+2019-08-01 00:25:57,931 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "100", "time": 1564593957.930094, "alert": "|#mainroom| Mike_474: hgj"}'
+2019-08-01 00:25:57,931 INFO Lesson6_server User: Mike_474, Message:{"action": "msg", "time": 1564593957.92918, "to": "#mainroom", "from": "Mike_474", "message": "hgj"}
+2019-08-01 00:25:57,932 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "200", "time": 1564593957.932169, "alert": "OK!"}'
+2019-08-01 00:26:08,942 INFO Lesson6_server User: None, Message:
+2019-08-01 00:26:08,942 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "400", "time": 1564593968.9428496, "error": "Wrong request or JSON"}'
+2019-08-01 00:26:10,944 INFO Lesson6_server User: None, Message:
+2019-08-01 00:26:10,945 INFO Lesson6_server Server send to: 127.0.0.1; User: Mike_474; Message:b'{"response": "400", "time": 1564593970.945089, "error": "Wrong request or JSON"}'
+2019-08-01 00:26:10,945 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 02:23:09,553 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 02:23:54,847 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 02:24:24,072 INFO Lesson6_server User: None, Message:
+2019-08-01 02:28:45,342 INFO Lesson6_server User: None, Message:
+2019-08-01 02:29:54,795 INFO Lesson6_server User: None, Message:
+2019-08-01 02:30:47,853 INFO Lesson6_server User: None, Message:
+2019-08-01 02:33:17,785 INFO Lesson6_server User: None, Message:
+2019-08-01 02:33:38,807 INFO Lesson6_server User: None, Message:
+2019-08-01 02:36:58,397 INFO Lesson6_server User: None, Message:
+2019-08-01 02:38:15,474 INFO Lesson6_server User: None, Message:
+2019-08-01 02:38:58,631 INFO Lesson6_server User: None, Message:
+2019-08-01 02:39:09,643 INFO Lesson6_server User: None, Message:
+2019-08-01 02:39:36,675 INFO Lesson6_server User: None, Message:
+2019-08-01 02:41:26,613 INFO Lesson6_server User: None, Message:
+2019-08-01 02:42:29,678 INFO Lesson6_server User: None, Message:
+2019-08-01 02:44:11,165 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 02:53:29,353 INFO Lesson6_server User: None, Message:
+2019-08-01 02:53:45,308 INFO Lesson6_server User: None, Message:
+2019-08-01 02:55:10,393 INFO Lesson6_server User: None, Message:
+2019-08-01 02:55:25,721 INFO Lesson6_server User: None, Message:
+2019-08-01 02:56:05,303 INFO Lesson6_server User: None, Message:
+2019-08-01 09:13:29,342 INFO Lesson6_server User: None, Message:
+2019-08-01 09:18:00,625 INFO Lesson6_server User: None, Message:
+2019-08-01 09:18:01,627 INFO Lesson6_server User: None, Message:
+2019-08-01 09:24:39,038 INFO Lesson6_server User: None, Message:
+2019-08-01 09:24:40,040 INFO Lesson6_server User: None, Message:
+2019-08-01 09:37:38,235 INFO Lesson6_server User: Nastya, Message:{"action": "presence", "time": 1564627057.2353349, "type": "online", "user": {"account_name": "Nastya", "status": "online"}}
+
+2019-08-01 09:37:38,250 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "200", "time": 1564627058.249444, "alert": "OK!"}'
+2019-08-01 09:37:38,260 INFO Lesson6_server User: None, Message:
+2019-08-01 09:37:38,261 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2598605, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:37:38,261 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2599976, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:37:38,261 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:37:38,262 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2601116, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:37:38,262 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:38,262 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2601798, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:37:38,262 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:38,263 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2602408, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:37:38,263 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:38,263 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2603307, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:37:38,263 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:38,263 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2604005, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:37:38,263 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:38,264 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2604492, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:37:38,264 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:38,264 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2604938, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:37:38,264 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:38,264 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627058.2605386, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:37:38,265 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:38,265 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "400", "time": 1564627058.26118, "error": "Wrong request or JSON"}'
+2019-08-01 09:37:38,265 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:39,277 INFO Lesson6_server User: Nastya, Message:{"action": "presence", "time": 1564627058.277215, "type": "online", "user": {"account_name": "Nastya", "status": "online"}}
+
+2019-08-01 09:37:39,280 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "200", "time": 1564627059.2798567, "alert": "OK!"}'
+2019-08-01 09:37:39,282 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2814968, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:37:39,282 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2816012, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:37:39,283 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:37:39,283 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2816792, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:37:39,283 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:39,283 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2817554, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:37:39,283 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:39,284 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2818253, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:37:39,284 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:39,284 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.281895, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:37:39,284 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:39,284 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2819643, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:37:39,284 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:39,285 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2820337, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:37:39,285 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:39,285 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2821023, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:37:39,285 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:39,285 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627059.2821739, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:37:39,285 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,811 INFO Lesson6_server User: Nastya, Message:{"action": "presence", "time": 1564627065.8101718, "type": "online", "user": {"account_name": "Nastya", "status": "online"}}
+
+2019-08-01 09:37:46,814 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "200", "time": 1564627066.8134344, "alert": "OK!"}'
+2019-08-01 09:37:46,815 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.8148153, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:37:46,816 INFO Lesson6_server User: None, Message:
+2019-08-01 09:37:46,816 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.8149047, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:37:46,816 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:37:46,817 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.814965, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:37:46,817 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,817 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.8150213, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:37:46,817 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,817 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.815077, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:37:46,818 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,818 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.8151312, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:37:46,818 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,818 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.8151846, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:37:46,818 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,818 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.8152385, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:37:46,818 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,819 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.815292, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:37:46,819 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,819 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627066.815345, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:37:46,819 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:37:46,819 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "400", "time": 1564627066.8166504, "error": "Wrong request or JSON"}'
+2019-08-01 09:37:46,819 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,440 INFO Lesson6_server User: Vasya, Message:{"action": "presence", "time": 1564627081.439415, "type": "online", "user": {"account_name": "Vasya", "status": "online"}}
+
+2019-08-01 09:38:02,444 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "200", "time": 1564627082.4431782, "alert": "OK!"}'
+2019-08-01 09:38:02,445 INFO Lesson6_server User: None, Message:
+2019-08-01 09:38:02,445 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4448583, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:38:02,446 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4449465, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:38:02,446 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:38:02,446 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4450073, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:38:02,447 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,447 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4450653, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:38:02,447 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,447 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4451215, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:38:02,447 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,448 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4451766, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:38:02,448 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,448 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4452324, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:38:02,448 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,449 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4452856, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:38:02,449 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,449 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.445338, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:38:02,449 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,449 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627082.4453907, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:38:02,449 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:02,449 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "400", "time": 1564627082.4459627, "error": "Wrong request or JSON"}'
+2019-08-01 09:38:02,450 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,475 INFO Lesson6_server User: Vasya, Message:{"action": "presence", "time": 1564627112.004275, "type": "online", "user": {"account_name": "Vasya", "status": "online"}}
+
+2019-08-01 09:38:33,478 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "200", "time": 1564627113.478092, "alert": "OK!"}'
+2019-08-01 09:38:33,480 INFO Lesson6_server User: None, Message:
+2019-08-01 09:38:33,480 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.479719, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:38:33,481 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4798117, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:38:33,481 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:38:33,481 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4798746, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:38:33,481 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,482 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4799323, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:38:33,482 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,482 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4799879, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:38:33,482 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,482 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4800425, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:38:33,483 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,483 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4800966, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:38:33,483 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,483 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4801493, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:38:33,484 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,484 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4802015, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:38:33,484 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,484 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627113.4802535, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:38:33,484 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:33,484 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "400", "time": 1564627113.4808543, "error": "Wrong request or JSON"}'
+2019-08-01 09:38:33,484 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,492 INFO Lesson6_server User: Vasya, Message:{"action": "presence", "time": 1564627122.9046972, "type": "online", "user": {"account_name": "Vasya", "status": "online"}}
+
+2019-08-01 09:38:44,495 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "200", "time": 1564627124.4944973, "alert": "OK!"}'
+2019-08-01 09:38:44,496 INFO Lesson6_server User: None, Message:
+2019-08-01 09:38:44,497 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.4960515, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:38:44,497 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.496141, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:38:44,497 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:38:44,497 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.4962022, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:38:44,498 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,498 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.4962602, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:38:44,498 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,498 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.4963164, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:38:44,498 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,498 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.496389, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:38:44,499 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,499 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.4964652, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:38:44,499 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,499 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.4965265, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:38:44,499 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,499 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.4965827, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:38:44,500 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,500 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "100", "time": 1564627124.4966376, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:38:44,500 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:38:44,500 INFO Lesson6_server Server send to: 127.0.0.1; User: Vasya; Message:b'{"response": "400", "time": 1564627124.4971704, "error": "Wrong request or JSON"}'
+2019-08-01 09:38:44,500 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:47,873 INFO Lesson6_server User: Nastya, Message:{"action": "presence", "time": 1564627486.8079827, "type": "online", "user": {"account_name": "Nastya", "status": "online"}}
+
+2019-08-01 09:44:47,877 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "200", "time": 1564627487.8762343, "alert": "OK!"}'
+2019-08-01 09:44:47,879 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.8785322, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:44:47,879 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.8786232, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:44:47,879 ERROR Lesson6_server Error [Errno 104] Connection reset by peer
+2019-08-01 09:44:47,880 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:44:47,880 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.878669, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:44:47,880 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:47,880 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.8787184, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:44:47,880 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:47,881 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.8787658, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:44:47,881 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:47,881 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.878815, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:44:47,881 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:47,881 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.8788755, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:44:47,881 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:47,882 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.8789206, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:44:47,882 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:47,882 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.878964, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:44:47,882 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:47,883 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627487.8790085, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:44:47,883 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,394 INFO Lesson6_server User: Nastya, Message:{"action": "presence", "time": 1564627490.3927097, "type": "online", "user": {"account_name": "Nastya", "status": "online"}}
+
+2019-08-01 09:44:51,397 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "200", "time": 1564627491.3963854, "alert": "OK!"}'
+2019-08-01 09:44:51,398 INFO Lesson6_server User: None, Message:
+2019-08-01 09:44:51,399 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.397975, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:44:51,399 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.398076, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:44:51,400 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:44:51,400 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.3981545, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:44:51,400 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,400 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.3982255, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:44:51,400 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,400 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.3982956, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:44:51,401 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,401 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.3983662, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:44:51,401 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,401 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.3984373, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:44:51,401 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,401 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.3985066, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:44:51,402 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,402 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.3985758, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:44:51,402 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,402 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627491.398646, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:44:51,402 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:51,402 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "400", "time": 1564627491.3991573, "error": "Wrong request or JSON"}'
+2019-08-01 09:44:51,403 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,983 INFO Lesson6_server User: Nastya, Message:{"action": "presence", "time": 1564627495.9819267, "type": "online", "user": {"account_name": "Nastya", "status": "online"}}
+
+2019-08-01 09:44:56,986 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "200", "time": 1564627496.9854887, "alert": "OK!"}'
+2019-08-01 09:44:56,987 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9869597, "alert": "|mainchat| Donald_924: hi"}'
+2019-08-01 09:44:56,988 INFO Lesson6_server User: None, Message:
+2019-08-01 09:44:56,988 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9870582, "alert": "|mainchat| Donald_924: I am Donald !"}'
+2019-08-01 09:44:56,988 ERROR Lesson6_server Error: [Errno 32] Broken pipe
+2019-08-01 09:44:56,989 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9871204, "alert": "|mainchat| Donald_924: Are you here ?!"}'
+2019-08-01 09:44:56,989 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,989 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9871783, "alert": "|mainchat| Jeremy_995: hi"}'
+2019-08-01 09:44:56,989 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,989 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.987234, "alert": "|mainchat| Jeremy_995: Jeremy me"}'
+2019-08-01 09:44:56,990 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,990 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9872894, "alert": "|mainchat| Jeremy_995: testers gonna test"}'
+2019-08-01 09:44:56,990 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,990 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9873438, "alert": "|mainchat| Jeremy_995: HTP"}'
+2019-08-01 09:44:56,990 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,990 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9873974, "alert": "|mainchat| Mike_474: hjf"}'
+2019-08-01 09:44:56,991 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,991 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9874506, "alert": "|mainchat| Mike_474: hgfj"}'
+2019-08-01 09:44:56,991 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,991 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "100", "time": 1564627496.9875033, "alert": "|mainchat| Mike_474: hgj"}'
+2019-08-01 09:44:56,991 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 09:44:56,991 INFO Lesson6_server Server send to: 127.0.0.1; User: Nastya; Message:b'{"response": "400", "time": 1564627496.9887214, "error": "Wrong request or JSON"}'
+2019-08-01 09:44:56,992 ERROR Lesson6_server Error: [Errno 9] Bad file descriptor
+2019-08-01 10:19:28,139 INFO Lesson6_server User: None, Message:
+2019-08-01 10:31:43,891 INFO Lesson6_server User: None, Message:
+2019-08-01 10:31:55,386 INFO Lesson6_server User: None, Message:
+2019-08-01 10:32:42,432 INFO Lesson6_server User: None, Message:
+2019-08-01 10:34:45,562 INFO Lesson6_server User: None, Message:
+2019-08-01 10:35:00,578 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:37:57,751 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:42:01,246 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:42:32,276 INFO Lesson6_server User: None, Message:
+2019-08-01 10:43:05,312 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:44:29,113 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:46:05,763 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:50:15,328 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:54:52,617 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:56:11,880 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 10:57:09,913 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 11:26:46,734 INFO Lesson6_server User: None, Message:
+2019-08-01 11:26:54,371 INFO Lesson6_server User: None, Message:
+2019-08-01 11:38:48,316 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 11:39:27,356 INFO Lesson6_server User: None, Message:
+2019-08-01 11:47:22,845 INFO Lesson6_server User: None, Message:
+2019-08-01 11:47:28,343 INFO Lesson6_server User: None, Message:
+2019-08-01 11:47:41,355 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 11:49:25,141 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 11:49:44,255 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 11:50:29,960 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 12:53:25,821 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 22:37:33,006 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 22:37:58,453 INFO Lesson6_server User: None, Message:
+2019-08-01 22:38:10,164 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 22:39:49,431 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 22:41:14,519 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 22:41:39,814 INFO Lesson6_server User: None, Message:
+2019-08-01 22:42:07,167 INFO Lesson6_server User: None, Message:
+2019-08-01 22:42:20,180 INFO Lesson6_server User: None, Message:
+2019-08-01 22:42:33,194 INFO Lesson6_server User: None, Message:
+2019-08-01 22:42:52,214 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 22:44:21,622 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 22:50:00,981 INFO Lesson6_server User: None, Message:
+2019-08-01 22:50:22,822 INFO Lesson6_server User: None, Message:
+2019-08-01 22:50:57,930 INFO Lesson6_server User: None, Message:
+2019-08-01 22:52:45,038 INFO Lesson6_server User: None, Message:
+2019-08-01 22:55:06,525 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 23:02:08,485 INFO Lesson6_server User: None, Message:
+2019-08-01 23:05:14,592 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 23:05:39,904 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 23:06:49,020 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 23:07:44,076 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 23:36:58,756 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 23:43:40,175 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
+2019-08-01 23:52:36,419 ERROR Lesson6_server Error [Errno 11] Resource temporarily unavailable
