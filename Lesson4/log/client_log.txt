@@ -1,0 +1,538 @@
+2019-07-18 22:52:28,493 DEBUG Lesson8_client Code: 100
+2019-07-18 22:52:28,493 DEBUG Lesson8_client Message: |#mainroom| Donald_948: xwsws
+2019-07-18 22:52:28,493 DEBUG Lesson8_client Code: 200
+2019-07-18 22:52:28,493 DEBUG Lesson8_client User connect : OK!
+2019-07-24 22:32:28,950 DEBUG selector_events Using selector: EpollSelector
+2019-07-24 22:32:43,213 DEBUG Lesson4_client b'{"action": "msg", "time": 1563982363.213744, "to": "#mainroom", "from": null, "message": "hjkfhsg;"}'
+2019-07-24 22:32:43,214 DEBUG Lesson4_client b'{"action": "presence", "time": 1563982363.2149282, "type": "status", "user": {"account_name": "Jeremy_235", "status": "I am using JIM Messenger !"}}'
+2019-07-24 22:36:28,762 ERROR base_events Task exception was never retrieved
+future: <Task finished coro=<JIMClient.type_message() done, defined at /home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py:67> exception=AttributeError("'NoneType' object has no attribute 'write'")>
+Traceback (most recent call last):
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 72, in type_message
+    self.send_message(chatname, data)
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 64, in send_message
+    self.sender.write(JIMMSG.encode("utf-8"))
+AttributeError: 'NoneType' object has no attribute 'write'
+2019-07-24 22:39:00,784 DEBUG selector_events Using selector: EpollSelector
+2019-07-24 22:39:03,982 DEBUG Lesson4_client b'{"action": "msg", "time": 1563982743.9824746, "to": "#mainroom", "from": null, "message": ""}'
+2019-07-24 22:39:03,983 DEBUG Lesson4_client b'{"action": "presence", "time": 1563982743.9836237, "type": "status", "user": {"account_name": "Tomas_797", "status": "I am using JIM Messenger !"}}'
+2019-07-25 01:49:52,485 ERROR base_events Task exception was never retrieved
+future: <Task finished coro=<JIMClient.type_message() done, defined at /home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py:67> exception=AttributeError("'NoneType' object has no attribute 'write'")>
+Traceback (most recent call last):
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 72, in type_message
+    self.send_message(chatname, data)
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 64, in send_message
+    self.sender.write(JIMMSG.encode("utf-8"))
+AttributeError: 'NoneType' object has no attribute 'write'
+2019-07-25 01:50:06,240 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 01:50:10,375 DEBUG Lesson4_client b'{"action": "msg", "time": 1563994210.3749993, "to": "#mainroom", "from": null, "message": "za"}'
+2019-07-25 01:50:10,376 DEBUG Lesson4_client b'{"action": "presence", "time": 1563994210.376196, "type": "status", "user": {"account_name": "Jeremy_223", "status": "I am using JIM Messenger !"}}'
+2019-07-25 01:51:04,983 ERROR base_events Task exception was never retrieved
+future: <Task finished coro=<JIMClient.type_message() done, defined at /home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py:67> exception=AttributeError("'NoneType' object has no attribute 'write'")>
+Traceback (most recent call last):
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 72, in type_message
+    self.send_message(chatname, data)
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 64, in send_message
+    self.sender.write(JIMMSG.encode("utf-8"))
+AttributeError: 'NoneType' object has no attribute 'write'
+2019-07-25 01:51:08,868 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 01:51:11,885 DEBUG Lesson4_client b'{"action": "msg", "time": 1563994271.8854342, "to": "#mainroom", "from": null, "message": "g"}'
+2019-07-25 01:51:11,886 DEBUG Lesson4_client b'{"action": "presence", "time": 1563994271.886651, "type": "status", "user": {"account_name": "Tomas_401", "status": "I am using JIM Messenger !"}}'
+2019-07-25 01:51:57,974 ERROR base_events Task exception was never retrieved
+future: <Task finished coro=<JIMClient.type_message() done, defined at /home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py:67> exception=AttributeError("'NoneType' object has no attribute 'write'")>
+Traceback (most recent call last):
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 72, in type_message
+    self.send_message(chatname, data)
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 64, in send_message
+    self.sender.write(JIMMSG.encode("utf-8"))
+AttributeError: 'NoneType' object has no attribute 'write'
+2019-07-25 01:53:20,381 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 01:53:23,160 DEBUG Lesson4_client b'{"action": "msg", "time": 1563994403.160672, "to": "#mainroom", "from": null, "message": "vfd"}'
+2019-07-25 01:53:23,161 DEBUG Lesson4_client b'{"action": "presence", "time": 1563994403.161875, "type": "status", "user": {"account_name": "Jeremy_880", "status": "I am using JIM Messenger !"}}'
+2019-07-25 01:54:08,816 ERROR base_events Task exception was never retrieved
+future: <Task finished coro=<JIMClient.type_message() done, defined at /home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py:67> exception=AttributeError("'NoneType' object has no attribute 'write'")>
+Traceback (most recent call last):
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 72, in type_message
+    self.send_message(chatname, data)
+  File "/home/ant/PycharmProjects/GeekBrains_python_vol3/Lesson4/Lesson4_client.py", line 64, in send_message
+    self.sender.write(JIMMSG.encode("utf-8"))
+AttributeError: 'NoneType' object has no attribute 'write'
+2019-07-25 02:02:11,255 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:02:11,256 DEBUG Lesson4_client b'{"action": "presence", "time": 1563994931.2564106, "type": "status", "user": {"account_name": "Jeremy_518", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:02:15,538 DEBUG Lesson4_client b'{"action": "msg", "time": 1563994935.538717, "to": "#mainroom", "from": "Jeremy_518", "message": "hi"}'
+2019-07-25 02:02:24,835 DEBUG Lesson4_client b'{"action": "msg", "time": 1563994944.8358254, "to": "#mainroom", "from": "Jeremy_518", "message": "i am Jeremy !"}'
+2019-07-25 02:02:32,987 DEBUG Lesson4_client b'{"action": "msg", "time": 1563994952.9869816, "to": "#mainroom", "from": "Jeremy_518", "message": "can u hear me &"}'
+2019-07-25 02:02:34,512 DEBUG Lesson4_client b'{"action": "msg", "time": 1563994954.5123768, "to": "#mainroom", "from": "Jeremy_518", "message": "?"}'
+2019-07-25 02:04:44,056 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:05:56,173 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:05:56,174 DEBUG Lesson4_client b'{"action": "presence", "time": 1563995156.1747985, "type": "status", "user": {"account_name": "Tomas_959", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:05:59,536 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995159.5365076, "to": "#mainroom", "from": "Tomas_959", "message": "yo oy"}'
+2019-07-25 02:05:59,537 DEBUG Lesson4_client Code: 200
+2019-07-25 02:05:59,537 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:06:05,896 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995165.895936, "to": "#mainroom", "from": "Tomas_959", "message": "iam here"}'
+2019-07-25 02:06:05,896 DEBUG Lesson4_client Code: 100
+2019-07-25 02:06:05,897 DEBUG Lesson4_client Message: |#mainroom| Tomas_959: yo oy
+2019-07-25 02:06:05,897 DEBUG Lesson4_client Code: 200
+2019-07-25 02:06:05,897 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:06:05,898 DEBUG Lesson4_client Code: 100
+2019-07-25 02:06:05,898 DEBUG Lesson4_client Message: |#mainroom| Tomas_959: iam here
+2019-07-25 02:06:05,898 DEBUG Lesson4_client Code: 200
+2019-07-25 02:06:05,898 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:06:35,404 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995195.4040039, "to": "#mainroom", "from": "Tomas_959", "message": "can you read me ?! "}'
+2019-07-25 02:06:35,406 DEBUG Lesson4_client Code: 100
+2019-07-25 02:06:35,406 DEBUG Lesson4_client Message: |#mainroom| Tomas_959: can you read me ?! 
+2019-07-25 02:06:35,406 DEBUG Lesson4_client Code: 200
+2019-07-25 02:06:35,406 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:07:36,802 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:08:02,120 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:08:02,121 DEBUG Lesson4_client b'{"action": "presence", "time": 1563995282.1216598, "type": "status", "user": {"account_name": "Donald_315", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:08:08,159 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995288.1598165, "to": "#mainroom", "from": "Donald_315", "message": "sha"}'
+2019-07-25 02:08:20,410 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995300.4100375, "to": "#mainroom", "from": "Donald_315", "message": "Donald here! "}'
+2019-07-25 02:08:28,735 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995308.7348826, "to": "#mainroom", "from": "Donald_315", "message": "Go out"}'
+2019-07-25 02:08:34,675 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995314.6754491, "to": "#mainroom", "from": "Donald_315", "message": ""}'
+2019-07-25 02:08:44,180 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995324.1806343, "to": "#mainroom", "from": "Donald_315", "message": "check it out !"}'
+2019-07-25 02:18:03,201 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:18:03,409 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:18:03,410 DEBUG Lesson4_client b'{"action": "presence", "time": 1563995883.410766, "type": "status", "user": {"account_name": "Jeremy_447", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:18:17,287 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995897.2876601, "to": "#mainroom", "from": "Jeremy_447", "message": "Right i am here !"}'
+2019-07-25 02:18:49,806 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:18:50,009 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:18:50,010 DEBUG Lesson4_client b'{"action": "presence", "time": 1563995930.010267, "type": "status", "user": {"account_name": "Donald_172", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:18:53,167 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995933.167836, "to": "#mainroom", "from": "Donald_172", "message": "ghd"}'
+2019-07-25 02:19:55,207 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:19:55,411 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:19:55,412 DEBUG Lesson4_client b'{"action": "presence", "time": 1563995995.4124484, "type": "status", "user": {"account_name": "Jeremy_273", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:19:58,014 DEBUG Lesson4_client b'{"action": "msg", "time": 1563995998.0138826, "to": "#mainroom", "from": "Jeremy_273", "message": "hgjdhgj"}'
+2019-07-25 02:28:49,631 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:28:49,849 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:28:49,851 DEBUG Lesson4_client b'{"action": "presence", "time": 1563996529.8509362, "type": "status", "user": {"account_name": "Mike_580", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:28:54,072 DEBUG Lesson4_client b'{"action": "msg", "time": 1563996534.0726674, "to": "#mainroom", "from": "Mike_580", "message": "bu ga ga"}'
+2019-07-25 02:28:58,244 DEBUG Lesson4_client b'{"action": "msg", "time": 1563996538.2446096, "to": "#mainroom", "from": "Mike_580", "message": "here"}'
+2019-07-25 02:33:54,909 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:33:55,122 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:33:55,123 DEBUG Lesson4_client b'{"action": "presence", "time": 1563996835.1231358, "type": "status", "user": {"account_name": "Jeremy_983", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:33:56,768 DEBUG Lesson4_client b'{"action": "msg", "time": 1563996836.7687242, "to": "#mainroom", "from": "Jeremy_983", "message": "tfgh"}'
+2019-07-25 02:35:06,429 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:35:06,639 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:35:06,640 DEBUG Lesson4_client b'{"action": "presence", "time": 1563996906.6402848, "type": "status", "user": {"account_name": "Jeremy_508", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:35:08,458 DEBUG Lesson4_client b'{"action": "msg", "time": 1563996908.4579198, "to": "#mainroom", "from": "Jeremy_508", "message": "ht"}'
+2019-07-25 02:41:27,018 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:41:27,224 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:41:27,226 DEBUG Lesson4_client b'{"action": "presence", "time": 1563997287.2261212, "type": "status", "user": {"account_name": "Jeremy_462", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:45:26,581 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:46:39,763 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:46:39,765 DEBUG Lesson4_client b'{"action": "presence", "time": 1563997599.7650228, "type": "status", "user": {"account_name": "Mike_701", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:46:41,842 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997601.8428144, "to": "#mainroom", "from": "Mike_701", "message": "hdf"}'
+2019-07-25 02:50:30,650 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:50:30,860 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:50:30,861 DEBUG Lesson4_client b'{"action": "presence", "time": 1563997830.8613312, "type": "status", "user": {"account_name": "Mike_912", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:50:32,641 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997832.6410882, "to": "#mainroom", "from": "Mike_912", "message": "dgfsd"}'
+2019-07-25 02:50:32,642 DEBUG Lesson4_client Code: 200
+2019-07-25 02:50:32,642 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:50:32,644 DEBUG Lesson4_client Code: 100
+2019-07-25 02:50:32,644 DEBUG Lesson4_client Message: |#mainroom| Mike_912: dgfsd
+2019-07-25 02:50:35,504 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997835.504373, "to": "#mainroom", "from": "Mike_912", "message": "gfh"}'
+2019-07-25 02:50:36,713 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997836.7128737, "to": "#mainroom", "from": "Mike_912", "message": "768"}'
+2019-07-25 02:51:04,187 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 02:51:37,893 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 02:51:37,894 DEBUG Lesson4_client b'{"action": "presence", "time": 1563997897.8942132, "type": "status", "user": {"account_name": "Donald_399", "status": "I am using JIM Messenger !"}}'
+2019-07-25 02:51:41,112 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997901.1125126, "to": "#mainroom", "from": "Donald_399", "message": "rte"}'
+2019-07-25 02:51:41,113 DEBUG Lesson4_client Code: 200
+2019-07-25 02:51:41,113 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:51:42,612 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997902.6126285, "to": "#mainroom", "from": "Donald_399", "message": "uifyuirew"}'
+2019-07-25 02:51:42,613 DEBUG Lesson4_client Code: 100
+2019-07-25 02:51:42,613 DEBUG Lesson4_client Message: |#mainroom| Donald_399: rte
+2019-07-25 02:51:42,613 DEBUG Lesson4_client Code: 200
+2019-07-25 02:51:42,614 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:51:44,253 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997904.252927, "to": "#mainroom", "from": "Donald_399", "message": "hi"}'
+2019-07-25 02:51:44,253 DEBUG Lesson4_client Code: 100
+2019-07-25 02:51:44,254 DEBUG Lesson4_client Message: |#mainroom| Donald_399: uifyuirew
+2019-07-25 02:51:44,254 DEBUG Lesson4_client Code: 200
+2019-07-25 02:51:44,254 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:51:50,312 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997910.3123665, "to": "#mainroom", "from": "Donald_399", "message": "show me !"}'
+2019-07-25 02:51:50,313 DEBUG Lesson4_client Code: 100
+2019-07-25 02:51:50,313 DEBUG Lesson4_client Message: |#mainroom| Donald_399: hi
+2019-07-25 02:51:50,313 DEBUG Lesson4_client Code: 200
+2019-07-25 02:51:50,314 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:51:56,038 DEBUG Lesson4_client b'{"action": "msg", "time": 1563997916.03802, "to": "#mainroom", "from": "Donald_399", "message": "again !"}'
+2019-07-25 02:51:56,039 DEBUG Lesson4_client Code: 100
+2019-07-25 02:51:56,039 DEBUG Lesson4_client Message: |#mainroom| Donald_399: show me !
+2019-07-25 02:51:56,039 DEBUG Lesson4_client Code: 200
+2019-07-25 02:51:56,039 DEBUG Lesson4_client User connect : OK!
+2019-07-25 02:51:56,040 DEBUG Lesson4_client Code: 100
+2019-07-25 02:51:56,040 DEBUG Lesson4_client Message: |#mainroom| Donald_399: again !
+2019-07-25 02:51:56,047 DEBUG Lesson4_client Code: 200
+2019-07-25 02:51:56,047 DEBUG Lesson4_client User connect : OK!
+2019-07-25 11:51:31,937 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:00:30,453 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:00:30,455 DEBUG Lesson4_client b'{"action": "presence", "time": 1564030830.4550674, "type": "status", "user": {"account_name": "Mike_875", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:00:32,884 DEBUG Lesson4_client b'{"action": "msg", "time": 1564030832.883952, "to": "#mainroom", "from": "Mike_875", "message": "ghj"}'
+2019-07-25 12:00:32,884 DEBUG Lesson4_client Code: 200
+2019-07-25 12:00:32,885 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:12:18,388 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:12:18,592 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:12:18,593 DEBUG Lesson4_client b'{"action": "presence", "time": 1564031538.5937, "type": "status", "user": {"account_name": "Donald_423", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:12:20,404 DEBUG Lesson4_client b'{"action": "msg", "time": 1564031540.4043608, "to": "#mainroom", "from": "Donald_423", "message": "gh"}'
+2019-07-25 12:15:23,902 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:16:50,558 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:16:50,559 DEBUG Lesson4_client b'{"action": "presence", "time": 1564031810.5596275, "type": "status", "user": {"account_name": "Tomas_596", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:16:52,582 DEBUG Lesson4_client b'{"action": "msg", "time": 1564031812.5827613, "to": "#mainroom", "from": "Tomas_596", "message": "sdaf"}'
+2019-07-25 12:16:52,583 DEBUG Lesson4_client Code: 200
+2019-07-25 12:16:52,583 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:16:57,023 DEBUG Lesson4_client b'{"action": "msg", "time": 1564031817.0229602, "to": "#mainroom", "from": "Tomas_596", "message": "dsafdsf"}'
+2019-07-25 12:16:57,023 DEBUG Lesson4_client Code: 200
+2019-07-25 12:16:57,024 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:16:57,025 DEBUG Lesson4_client Code: 200
+2019-07-25 12:16:57,026 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:16:58,922 DEBUG Lesson4_client b'{"action": "msg", "time": 1564031818.922564, "to": "#mainroom", "from": "Tomas_596", "message": "yuewqryi"}'
+2019-07-25 12:17:17,720 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:26:15,504 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:26:15,505 DEBUG Lesson4_client b'{"action": "presence", "time": 1564032375.50531, "type": "status", "user": {"account_name": "Donald_899", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:26:17,557 DEBUG Lesson4_client b'{"action": "msg", "time": 1564032377.5572126, "to": "#mainroom", "from": "Donald_899", "message": "gfh"}'
+2019-07-25 12:26:17,558 DEBUG Lesson4_client Code: 200
+2019-07-25 12:26:17,558 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:26:17,559 DEBUG Lesson4_client Code: 200
+2019-07-25 12:26:17,559 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:26:18,856 DEBUG Lesson4_client b'{"action": "msg", "time": 1564032378.856095, "to": "#mainroom", "from": "Donald_899", "message": "xz"}'
+2019-07-25 12:26:21,856 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:27:12,642 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:27:12,644 DEBUG Lesson4_client b'{"action": "presence", "time": 1564032432.6442323, "type": "status", "user": {"account_name": "Mike_073", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:29:38,316 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:29:38,523 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:29:38,525 DEBUG Lesson4_client b'{"action": "presence", "time": 1564032578.5251164, "type": "status", "user": {"account_name": "Jeremy_617", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:29:41,027 DEBUG Lesson4_client b'{"action": "msg", "time": 1564032581.0273888, "to": "#mainroom", "from": "Jeremy_617", "message": "hi"}'
+2019-07-25 12:29:41,028 DEBUG Lesson4_client Code: 200
+2019-07-25 12:29:41,028 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:29:43,879 DEBUG Lesson4_client b'{"action": "msg", "time": 1564032583.8788323, "to": "#mainroom", "from": "Jeremy_617", "message": "welcome"}'
+2019-07-25 12:30:34,189 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:30:34,390 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:30:34,391 DEBUG Lesson4_client b'{"action": "presence", "time": 1564032634.391875, "type": "status", "user": {"account_name": "Donald_069", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:30:36,630 DEBUG Lesson4_client b'{"action": "msg", "time": 1564032636.6298761, "to": "#mainroom", "from": "Donald_069", "message": "fas"}'
+2019-07-25 12:30:36,630 DEBUG Lesson4_client Code: 200
+2019-07-25 12:30:36,630 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:30:36,631 DEBUG Lesson4_client Code: 100
+2019-07-25 12:30:36,631 DEBUG Lesson4_client Message: |mainchat| Donald_399: rte
+2019-07-25 12:30:36,631 DEBUG Lesson4_client Code: 100
+2019-07-25 12:30:36,631 DEBUG Lesson4_client Message: |mainchat| Donald_399: uifyuirew
+2019-07-25 12:30:36,631 DEBUG Lesson4_client Code: 100
+2019-07-25 12:30:36,631 DEBUG Lesson4_client Message: |mainchat| Donald_399: hi
+2019-07-25 12:30:36,632 DEBUG Lesson4_client Code: 100
+2019-07-25 12:30:36,632 DEBUG Lesson4_client Message: |mainchat| Donald_399: show me !
+2019-07-25 12:30:36,632 DEBUG Lesson4_client Code: 100
+2019-07-25 12:30:36,632 DEBUG Lesson4_client Message: |mainchat| Donald_399: again !
+2019-07-25 12:30:36,634 DEBUG Lesson4_client Code: 200
+2019-07-25 12:30:36,634 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:30:46,835 DEBUG Lesson4_client b'{"action": "msg", "time": 1564032646.8356388, "to": "#mainroom", "from": "Donald_069", "message": "opa"}'
+2019-07-25 12:30:49,658 DEBUG Lesson4_client b'{"action": "msg", "time": 1564032649.6580186, "to": "#mainroom", "from": "Donald_069", "message": "hi !"}'
+2019-07-25 12:30:49,658 DEBUG Lesson4_client Code: 200
+2019-07-25 12:30:49,659 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:30:49,660 DEBUG Lesson4_client Code: 200
+2019-07-25 12:30:49,660 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:31:30,478 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:46:03,499 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:46:03,500 DEBUG Lesson4_client b'{"action": "presence", "time": 1564033563.5005984, "type": "status", "user": {"account_name": "Jeremy_837", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:53:35,173 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:53:35,374 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:53:35,375 DEBUG Lesson4_client b'{"action": "presence", "time": 1564034015.3757668, "type": "status", "user": {"account_name": "Jeremy_086", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:53:39,091 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034019.0916204, "to": "#mainroom", "from": "Jeremy_086", "message": "hi"}'
+2019-07-25 12:53:39,092 DEBUG Lesson4_client Code: 200
+2019-07-25 12:53:39,092 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:53:39,092 DEBUG Lesson4_client Code: 100
+2019-07-25 12:53:39,093 DEBUG Lesson4_client Message: |mainchat| Donald_399: rte
+2019-07-25 12:53:39,093 DEBUG Lesson4_client Code: 100
+2019-07-25 12:53:39,093 DEBUG Lesson4_client Message: |mainchat| Donald_399: uifyuirew
+2019-07-25 12:53:39,093 DEBUG Lesson4_client Code: 100
+2019-07-25 12:53:39,093 DEBUG Lesson4_client Message: |mainchat| Donald_399: hi
+2019-07-25 12:53:39,093 DEBUG Lesson4_client Code: 100
+2019-07-25 12:53:39,094 DEBUG Lesson4_client Message: |mainchat| Donald_399: show me !
+2019-07-25 12:53:39,094 DEBUG Lesson4_client Code: 100
+2019-07-25 12:53:39,094 DEBUG Lesson4_client Message: |mainchat| Donald_399: again !
+2019-07-25 12:53:49,501 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034029.5014884, "to": "#mainroom", "from": "Jeremy_086", "message": "I am Jeremy !"}'
+2019-07-25 12:53:49,502 DEBUG Lesson4_client Code: 100
+2019-07-25 12:53:49,502 DEBUG Lesson4_client Message: |#mainroom| Jeremy_086: hi
+2019-07-25 12:53:49,502 DEBUG Lesson4_client Code: 200
+2019-07-25 12:53:49,502 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:54:01,861 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034041.8617196, "to": "#mainroom", "from": "Jeremy_086", "message": "\\u043f\\u043e\\u0433\\u043e\\u0432\\u043e\\u0440\\u0438\\u043c ?"}'
+2019-07-25 12:54:01,862 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:01,862 DEBUG Lesson4_client Message: |#mainroom| Jeremy_086: I am Jeremy !
+2019-07-25 12:54:01,863 DEBUG Lesson4_client Code: 200
+2019-07-25 12:54:01,863 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:54:01,864 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:01,865 DEBUG Lesson4_client Message: |#mainroom| Jeremy_086: поговорим ?
+2019-07-25 12:54:01,874 DEBUG Lesson4_client Code: 200
+2019-07-25 12:54:01,874 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:54:30,966 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034070.9667459, "to": "#mainroom", "from": "Jeremy_086", "message": "chat that chat"}'
+2019-07-25 12:54:30,968 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:30,968 DEBUG Lesson4_client Message: |#mainroom| Jeremy_086: chat that chat
+2019-07-25 12:54:30,976 DEBUG Lesson4_client Code: 200
+2019-07-25 12:54:30,977 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:54:38,779 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:54:46,134 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:54:46,135 DEBUG Lesson4_client b'{"action": "presence", "time": 1564034086.135915, "type": "status", "user": {"account_name": "Donald_074", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:54:49,369 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034089.3693266, "to": "#mainroom", "from": "Donald_074", "message": "hi"}'
+2019-07-25 12:54:49,370 DEBUG Lesson4_client Code: 200
+2019-07-25 12:54:49,370 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:54:49,370 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,370 DEBUG Lesson4_client Message: |mainchat| Donald_399: rte
+2019-07-25 12:54:49,370 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,371 DEBUG Lesson4_client Message: |mainchat| Donald_399: uifyuirew
+2019-07-25 12:54:49,371 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,371 DEBUG Lesson4_client Message: |mainchat| Donald_399: hi
+2019-07-25 12:54:49,371 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,371 DEBUG Lesson4_client Message: |mainchat| Donald_399: show me !
+2019-07-25 12:54:49,371 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,372 DEBUG Lesson4_client Message: |mainchat| Donald_399: again !
+2019-07-25 12:54:49,372 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,372 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: hi
+2019-07-25 12:54:49,372 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,372 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: I am Jeremy !
+2019-07-25 12:54:49,372 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,373 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: поговорим ?
+2019-07-25 12:54:49,373 DEBUG Lesson4_client Code: 100
+2019-07-25 12:54:49,373 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: chat that chat
+2019-07-25 12:55:01,539 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034101.539793, "to": "#mainroom", "from": "Donald_074", "message": "ou"}'
+2019-07-25 12:55:01,540 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:01,540 DEBUG Lesson4_client Message: |#mainroom| Donald_074: hi
+2019-07-25 12:55:01,541 DEBUG Lesson4_client Code: 200
+2019-07-25 12:55:01,541 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:55:12,972 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034112.9720283, "to": "#mainroom", "from": "Donald_074", "message": "Donald here !"}'
+2019-07-25 12:55:12,972 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:12,973 DEBUG Lesson4_client Message: |#mainroom| Donald_074: ou
+2019-07-25 12:55:12,973 DEBUG Lesson4_client Code: 200
+2019-07-25 12:55:12,973 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:55:13,043 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:13,044 DEBUG Lesson4_client Message: |#mainroom| Donald_074: Donald here !
+2019-07-25 12:55:13,052 DEBUG Lesson4_client Code: 200
+2019-07-25 12:55:13,053 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:55:19,871 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034119.8712032, "to": "#mainroom", "from": "Donald_074", "message": "answer me !"}'
+2019-07-25 12:55:24,860 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 12:55:46,131 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 12:55:46,132 DEBUG Lesson4_client b'{"action": "presence", "time": 1564034146.1323159, "type": "status", "user": {"account_name": "Jeremy_877", "status": "I am using JIM Messenger !"}}'
+2019-07-25 12:55:50,545 DEBUG Lesson4_client b'{"action": "msg", "time": 1564034150.545416, "to": "#mainroom", "from": "Jeremy_877", "message": "hello"}'
+2019-07-25 12:55:50,546 DEBUG Lesson4_client Code: 200
+2019-07-25 12:55:50,546 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:55:50,547 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,547 DEBUG Lesson4_client Message: |mainchat| Donald_399: rte
+2019-07-25 12:55:50,547 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,547 DEBUG Lesson4_client Message: |mainchat| Donald_399: uifyuirew
+2019-07-25 12:55:50,547 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,548 DEBUG Lesson4_client Message: |mainchat| Donald_399: hi
+2019-07-25 12:55:50,548 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,548 DEBUG Lesson4_client Message: |mainchat| Donald_399: show me !
+2019-07-25 12:55:50,548 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,548 DEBUG Lesson4_client Message: |mainchat| Donald_399: again !
+2019-07-25 12:55:50,549 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,549 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: hi
+2019-07-25 12:55:50,549 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,549 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: I am Jeremy !
+2019-07-25 12:55:50,549 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,549 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: поговорим ?
+2019-07-25 12:55:50,550 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,550 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: chat that chat
+2019-07-25 12:55:50,550 WARNING Lesson4_client Incorrect server answer: {"response": "200", "time": 1564034147.1393867, "alert": "OK!"}&&{"response": "100", "time": 1564034147.1399822, "alert": "|mainchat| Donald_399: rte"}&&{"response": "100", "time": 1564034147.1400785, "alert": "|mainchat| Donald_399: uifyuirew"}&&{"response": "100", "time": 1564034147.1401446, "alert": "|mainchat| Donald_399: hi"}&&{"response": "100", "time": 1564034147.1401997, "alert": "|mainchat| Donald_399: show me !"}&&{"response": "100", "time": 1564034147.1402469, "alert": "|mainchat| Donald_399: again !"}&&{"response": "100", "time": 1564034147.1402924, "alert": "|mainchat| Jeremy_086: hi"}&&{"response": "100", "time": 1564034147.1403391, "alert": "|mainchat| Jeremy_086: I am Jeremy !"}&&{"response": "100", "time": 1564034147.1403842, "alert": "|mainchat| Jeremy_086: \u043f\u043e\u0433\u043e\u0432\u043e\u0440\u0438\u043c ?"}&&{"response": "100", "time": 1564034147.1404307, "alert": "|mainchat| Jeremy_086: chat that chat"}&&{"response": "100", "time": 1564034147.140474, "alert": "|mainchat| Donald_
+2019-07-25 12:55:50,550 WARNING Lesson4_client Incorrect server answer: 074: hi"}&&{"response": "100", "time": 1564034147.1405177, "alert": "|mainchat| Donald_074: ou"}&&{"response": "100", "time": 1564034147.1405606, "alert": "|mainchat| Donald_074: Donald here !"}&&{"response": "100", "time": 1564034147.140789, "alert": "|mainchat| Donald_074: answer me !"}
+2019-07-25 12:55:50,551 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,551 DEBUG Lesson4_client Message: |mainchat| Donald_074: ou
+2019-07-25 12:55:50,551 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,551 DEBUG Lesson4_client Message: |mainchat| Donald_074: Donald here !
+2019-07-25 12:55:50,551 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,551 DEBUG Lesson4_client Message: |mainchat| Donald_074: answer me !
+2019-07-25 12:55:50,552 DEBUG Lesson4_client Code: 100
+2019-07-25 12:55:50,552 DEBUG Lesson4_client Message: |#mainroom| Jeremy_877: hello
+2019-07-25 12:55:50,555 DEBUG Lesson4_client Code: 200
+2019-07-25 12:55:50,556 DEBUG Lesson4_client User connect : OK!
+2019-07-25 12:56:35,150 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 16:50:31,783 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 16:50:31,784 DEBUG Lesson4_client b'{"action": "presence", "time": 1564048231.7844334, "type": "status", "user": {"account_name": "Donald_088", "status": "I am using JIM Messenger !"}}'
+2019-07-25 16:50:34,303 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048234.3031423, "to": "#mainroom", "from": "Donald_088", "message": ""}'
+2019-07-25 16:50:34,304 DEBUG Lesson4_client Code: 200
+2019-07-25 16:50:34,304 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:50:34,304 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,304 DEBUG Lesson4_client Message: |mainchat| Donald_399: rte
+2019-07-25 16:50:34,305 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,305 DEBUG Lesson4_client Message: |mainchat| Donald_399: uifyuirew
+2019-07-25 16:50:34,305 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,305 DEBUG Lesson4_client Message: |mainchat| Donald_399: hi
+2019-07-25 16:50:34,305 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,306 DEBUG Lesson4_client Message: |mainchat| Donald_399: show me !
+2019-07-25 16:50:34,306 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,306 DEBUG Lesson4_client Message: |mainchat| Donald_399: again !
+2019-07-25 16:50:34,306 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,306 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: hi
+2019-07-25 16:50:34,306 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,306 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: I am Jeremy !
+2019-07-25 16:50:34,307 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,307 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: поговорим ?
+2019-07-25 16:50:34,307 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,307 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: chat that chat
+2019-07-25 16:50:34,307 WARNING Lesson4_client Incorrect server answer: {"response": "200", "time": 1564048232.8530974, "alert": "OK!"}&&{"response": "100", "time": 1564048232.853823, "alert": "|mainchat| Donald_399: rte"}&&{"response": "100", "time": 1564048232.8539276, "alert": "|mainchat| Donald_399: uifyuirew"}&&{"response": "100", "time": 1564048232.8540056, "alert": "|mainchat| Donald_399: hi"}&&{"response": "100", "time": 1564048232.854067, "alert": "|mainchat| Donald_399: show me !"}&&{"response": "100", "time": 1564048232.8541415, "alert": "|mainchat| Donald_399: again !"}&&{"response": "100", "time": 1564048232.8542, "alert": "|mainchat| Jeremy_086: hi"}&&{"response": "100", "time": 1564048232.8542595, "alert": "|mainchat| Jeremy_086: I am Jeremy !"}&&{"response": "100", "time": 1564048232.854318, "alert": "|mainchat| Jeremy_086: \u043f\u043e\u0433\u043e\u0432\u043e\u0440\u0438\u043c ?"}&&{"response": "100", "time": 1564048232.8544059, "alert": "|mainchat| Jeremy_086: chat that chat"}&&{"response": "100", "time": 1564048232.8544762, "alert": "|mainchat| Donald_074: 
+2019-07-25 16:50:34,308 WARNING Lesson4_client Incorrect server answer: hi"}&&{"response": "100", "time": 1564048232.8545365, "alert": "|mainchat| Donald_074: ou"}&&{"response": "100", "time": 1564048232.8545947, "alert": "|mainchat| Donald_074: Donald here !"}&&{"response": "100", "time": 1564048232.8546548, "alert": "|mainchat| Donald_074: answer me !"}&&{"response": "100", "time": 1564048232.8549275, "alert": "|mainchat| Jeremy_877: hello"}
+2019-07-25 16:50:34,308 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,308 DEBUG Lesson4_client Message: |mainchat| Donald_074: ou
+2019-07-25 16:50:34,308 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,308 DEBUG Lesson4_client Message: |mainchat| Donald_074: Donald here !
+2019-07-25 16:50:34,309 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,309 DEBUG Lesson4_client Message: |mainchat| Donald_074: answer me !
+2019-07-25 16:50:34,309 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:34,309 DEBUG Lesson4_client Message: |mainchat| Jeremy_877: hello
+2019-07-25 16:50:36,476 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048236.4766672, "to": "#mainroom", "from": "Donald_088", "message": "sdfhjre"}'
+2019-07-25 16:50:36,477 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:36,477 DEBUG Lesson4_client Message: |#mainroom| Donald_088: 
+2019-07-25 16:50:36,478 DEBUG Lesson4_client Code: 200
+2019-07-25 16:50:36,478 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:50:38,275 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048238.2754865, "to": "#mainroom", "from": "Donald_088", "message": "fdglk"}'
+2019-07-25 16:50:38,276 DEBUG Lesson4_client Code: 100
+2019-07-25 16:50:38,276 DEBUG Lesson4_client Message: |#mainroom| Donald_088: sdfhjre
+2019-07-25 16:50:38,276 DEBUG Lesson4_client Code: 200
+2019-07-25 16:50:38,277 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:50:39,381 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048239.3809307, "to": "#mainroom", "from": "Donald_088", "message": "fdg"}'
+2019-07-25 16:51:03,182 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 16:51:03,387 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 16:51:03,388 DEBUG Lesson4_client b'{"action": "presence", "time": 1564048263.3884513, "type": "status", "user": {"account_name": "Jeremy_485", "status": "I am using JIM Messenger !"}}'
+2019-07-25 16:51:06,024 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048266.0239272, "to": "#mainroom", "from": "Jeremy_485", "message": "l"}'
+2019-07-25 16:51:06,025 DEBUG Lesson4_client Code: 200
+2019-07-25 16:51:06,025 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:51:06,025 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,025 DEBUG Lesson4_client Message: |mainchat| Donald_399: rte
+2019-07-25 16:51:06,026 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,026 DEBUG Lesson4_client Message: |mainchat| Donald_399: uifyuirew
+2019-07-25 16:51:06,026 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,026 DEBUG Lesson4_client Message: |mainchat| Donald_399: hi
+2019-07-25 16:51:06,026 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,027 DEBUG Lesson4_client Message: |mainchat| Donald_399: show me !
+2019-07-25 16:51:06,027 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,027 DEBUG Lesson4_client Message: |mainchat| Donald_399: again !
+2019-07-25 16:51:06,027 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,027 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: hi
+2019-07-25 16:51:06,027 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,028 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: I am Jeremy !
+2019-07-25 16:51:06,028 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,028 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: поговорим ?
+2019-07-25 16:51:06,028 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,028 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: chat that chat
+2019-07-25 16:51:06,029 WARNING Lesson4_client Incorrect server answer: {"response": "200", "time": 1564048264.394482, "alert": "OK!"}&&{"response": "100", "time": 1564048264.3951306, "alert": "|mainchat| Donald_399: rte"}&&{"response": "100", "time": 1564048264.3951921, "alert": "|mainchat| Donald_399: uifyuirew"}&&{"response": "100", "time": 1564048264.3952372, "alert": "|mainchat| Donald_399: hi"}&&{"response": "100", "time": 1564048264.3952827, "alert": "|mainchat| Donald_399: show me !"}&&{"response": "100", "time": 1564048264.395325, "alert": "|mainchat| Donald_399: again !"}&&{"response": "100", "time": 1564048264.3953662, "alert": "|mainchat| Jeremy_086: hi"}&&{"response": "100", "time": 1564048264.3954184, "alert": "|mainchat| Jeremy_086: I am Jeremy !"}&&{"response": "100", "time": 1564048264.3954656, "alert": "|mainchat| Jeremy_086: \u043f\u043e\u0433\u043e\u0432\u043e\u0440\u0438\u043c ?"}&&{"response": "100", "time": 1564048264.3955119, "alert": "|mainchat| Jeremy_086: chat that chat"}&&{"response": "100", "time": 1564048264.3955534, "alert": "|mainchat| Donald_0
+2019-07-25 16:51:06,029 WARNING Lesson4_client Incorrect server answer: 74: hi"}&&{"response": "100", "time": 1564048264.3956375, "alert": "|mainchat| Donald_074: ou"}&&{"response": "100", "time": 1564048264.3956916, "alert": "|mainchat| Donald_074: Donald here !"}&&{"response": "100", "time": 1564048264.395734, "alert": "|mainchat| Donald_074: answer me !"}&&{"response": "100", "time": 1564048264.395775, "alert": "|mainchat| Jeremy_877: hello"}&&{"response": "100", "time": 1564048264.3958147, "alert": "|mainchat| Donald_088: "}&&{"response": "100", "time": 1564048264.3958578, "alert": "|mainchat| Donald_088: sdfhjre"}&&{"response": "100", "time": 1564048264.3959007, "alert": "|mainchat| Donald_088: fdglk"}&&{"response": "100", "time": 1564048264.3961065, "alert": "|mainchat| Donald_088: fdg"}
+2019-07-25 16:51:06,029 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,029 DEBUG Lesson4_client Message: |mainchat| Donald_074: ou
+2019-07-25 16:51:06,029 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,030 DEBUG Lesson4_client Message: |mainchat| Donald_074: Donald here !
+2019-07-25 16:51:06,030 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,030 DEBUG Lesson4_client Message: |mainchat| Donald_074: answer me !
+2019-07-25 16:51:06,030 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,030 DEBUG Lesson4_client Message: |mainchat| Jeremy_877: hello
+2019-07-25 16:51:06,030 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,030 DEBUG Lesson4_client Message: |mainchat| Donald_088: 
+2019-07-25 16:51:06,031 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,031 DEBUG Lesson4_client Message: |mainchat| Donald_088: sdfhjre
+2019-07-25 16:51:06,031 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,031 DEBUG Lesson4_client Message: |mainchat| Donald_088: fdglk
+2019-07-25 16:51:06,031 DEBUG Lesson4_client Code: 100
+2019-07-25 16:51:06,031 DEBUG Lesson4_client Message: |mainchat| Donald_088: fdg
+2019-07-25 16:55:06,347 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 16:55:06,563 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 16:55:06,564 DEBUG Lesson4_client b'{"action": "presence", "time": 1564048506.5644596, "type": "status", "user": {"account_name": "Jeremy_496", "status": "I am using JIM Messenger !"}}'
+2019-07-25 16:55:08,084 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048508.0844185, "to": "#mainroom", "from": "Jeremy_496", "message": "gfhdf"}'
+2019-07-25 16:55:08,085 DEBUG Lesson4_client Code: 200
+2019-07-25 16:55:08,085 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:55:08,085 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,085 DEBUG Lesson4_client Message: |mainchat| Donald_399: rte
+2019-07-25 16:55:08,086 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,086 DEBUG Lesson4_client Message: |mainchat| Donald_399: uifyuirew
+2019-07-25 16:55:08,086 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,086 DEBUG Lesson4_client Message: |mainchat| Donald_399: hi
+2019-07-25 16:55:08,087 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,087 DEBUG Lesson4_client Message: |mainchat| Donald_399: show me !
+2019-07-25 16:55:08,087 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,087 DEBUG Lesson4_client Message: |mainchat| Donald_399: again !
+2019-07-25 16:55:08,087 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,087 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: hi
+2019-07-25 16:55:08,087 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,088 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: I am Jeremy !
+2019-07-25 16:55:08,088 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,088 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: поговорим ?
+2019-07-25 16:55:08,088 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,088 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: chat that chat
+2019-07-25 16:55:08,089 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,089 DEBUG Lesson4_client Message: |mainchat| Donald_074: ou
+2019-07-25 16:55:08,089 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,089 DEBUG Lesson4_client Message: |mainchat| Donald_074: Donald here !
+2019-07-25 16:55:08,089 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,089 DEBUG Lesson4_client Message: |mainchat| Donald_074: answer me !
+2019-07-25 16:55:08,089 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,090 DEBUG Lesson4_client Message: |mainchat| Jeremy_877: hello
+2019-07-25 16:55:08,090 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,090 DEBUG Lesson4_client Message: |mainchat| Donald_088: 
+2019-07-25 16:55:08,090 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,090 DEBUG Lesson4_client Message: |mainchat| Donald_088: sdfhjre
+2019-07-25 16:55:08,090 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,090 DEBUG Lesson4_client Message: |mainchat| Donald_088: fdglk
+2019-07-25 16:55:08,091 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,091 DEBUG Lesson4_client Message: |mainchat| Donald_088: fdg
+2019-07-25 16:55:08,091 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,091 DEBUG Lesson4_client Message: |mainchat| Jeremy_485: l
+2019-07-25 16:55:08,113 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:08,113 DEBUG Lesson4_client Message: |#mainroom| Jeremy_496: gfhdf
+2019-07-25 16:55:08,137 DEBUG Lesson4_client Code: 200
+2019-07-25 16:55:08,137 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:55:10,228 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048510.2286181, "to": "#mainroom", "from": "Jeremy_496", "message": "hkgksfad"}'
+2019-07-25 16:55:17,989 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048517.9889543, "to": "#mainroom", "from": "Jeremy_496", "message": "hello !"}'
+2019-07-25 16:55:17,990 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:17,990 DEBUG Lesson4_client Message: |#mainroom| Jeremy_496: hkgksfad
+2019-07-25 16:55:17,990 DEBUG Lesson4_client Code: 200
+2019-07-25 16:55:17,990 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:55:17,991 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:17,991 DEBUG Lesson4_client Message: |#mainroom| Jeremy_496: hello !
+2019-07-25 16:55:17,999 DEBUG Lesson4_client Code: 200
+2019-07-25 16:55:18,000 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:55:22,165 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048522.1656518, "to": "#mainroom", "from": "Jeremy_496", "message": "test it"}'
+2019-07-25 16:55:24,987 INFO Lesson4_client Connection.run was cancelled
+2019-07-25 16:55:25,230 DEBUG selector_events Using selector: EpollSelector
+2019-07-25 16:55:25,231 DEBUG Lesson4_client b'{"action": "presence", "time": 1564048525.231433, "type": "status", "user": {"account_name": "Mike_405", "status": "I am using JIM Messenger !"}}'
+2019-07-25 16:55:27,943 DEBUG Lesson4_client b'{"action": "msg", "time": 1564048527.943084, "to": "#mainroom", "from": "Mike_405", "message": "you"}'
+2019-07-25 16:55:27,944 DEBUG Lesson4_client Code: 200
+2019-07-25 16:55:27,944 DEBUG Lesson4_client User connect : OK!
+2019-07-25 16:55:27,944 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,944 DEBUG Lesson4_client Message: |mainchat| Donald_399: rte
+2019-07-25 16:55:27,945 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,945 DEBUG Lesson4_client Message: |mainchat| Donald_399: uifyuirew
+2019-07-25 16:55:27,945 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,945 DEBUG Lesson4_client Message: |mainchat| Donald_399: hi
+2019-07-25 16:55:27,945 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,946 DEBUG Lesson4_client Message: |mainchat| Donald_399: show me !
+2019-07-25 16:55:27,946 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,946 DEBUG Lesson4_client Message: |mainchat| Donald_399: again !
+2019-07-25 16:55:27,946 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,946 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: hi
+2019-07-25 16:55:27,946 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,947 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: I am Jeremy !
+2019-07-25 16:55:27,947 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,947 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: поговорим ?
+2019-07-25 16:55:27,947 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,947 DEBUG Lesson4_client Message: |mainchat| Jeremy_086: chat that chat
+2019-07-25 16:55:27,948 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,948 DEBUG Lesson4_client Message: |mainchat| Donald_074: ou
+2019-07-25 16:55:27,948 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,948 DEBUG Lesson4_client Message: |mainchat| Donald_074: Donald here !
+2019-07-25 16:55:27,948 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,948 DEBUG Lesson4_client Message: |mainchat| Donald_074: answer me !
+2019-07-25 16:55:27,948 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,949 DEBUG Lesson4_client Message: |mainchat| Jeremy_877: hello
+2019-07-25 16:55:27,949 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,949 DEBUG Lesson4_client Message: |mainchat| Donald_088: 
+2019-07-25 16:55:27,949 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,949 DEBUG Lesson4_client Message: |mainchat| Donald_088: sdfhjre
+2019-07-25 16:55:27,949 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,949 DEBUG Lesson4_client Message: |mainchat| Donald_088: fdglk
+2019-07-25 16:55:27,950 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,950 DEBUG Lesson4_client Message: |mainchat| Donald_088: fdg
+2019-07-25 16:55:27,950 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,950 DEBUG Lesson4_client Message: |mainchat| Jeremy_485: l
+2019-07-25 16:55:27,950 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,950 DEBUG Lesson4_client Message: |mainchat| Jeremy_496: gfhdf
+2019-07-25 16:55:27,950 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,951 DEBUG Lesson4_client Message: |mainchat| Jeremy_496: gfhdf
+2019-07-25 16:55:27,951 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,951 DEBUG Lesson4_client Message: |mainchat| Jeremy_496: hello !
+2019-07-25 16:55:27,951 DEBUG Lesson4_client Code: 100
+2019-07-25 16:55:27,951 DEBUG Lesson4_client Message: |mainchat| Jeremy_496: test it
+2019-07-25 16:55:36,313 INFO Lesson4_client Connection.run was cancelled
