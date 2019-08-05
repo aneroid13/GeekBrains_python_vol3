@@ -189,7 +189,7 @@ class JIMServer:
             self.db.add_user(user, status)
             self.answer(new_client, code, self.textanswers[code])
             for db_msg in self.db.get_chat_allmgs():
-                self.answer(new_client, 100, f"|mainchat| {db_msg['user']}: {db_msg['msg']}")
+                self.answer(new_client, 100, f"|#mainchat| {db_msg['user']}: {db_msg['msg']}")
 
         if action == "msg":
             for client in self.clients:
@@ -313,16 +313,19 @@ def get_args():
     parser = argparse.ArgumentParser(
         description='JIM Server can be started on custom address and port'
     )
-    parser.add_argument('-a', '--address', default="0.0.0.0", required=False, action='store', help='Input ip address')
-    parser.add_argument('-p', '--port', default=7777, required=False, action='store', help='Input port')
+    parser.add_argument('-a', '--address', default="0.0.0.0", type=str, required=False, action='store', help='Input ip address')
+    parser.add_argument('-p', '--port', default=7777, type=int, required=False, action='store', help='Input port')
+    parser.add_argument('-db', '--db_path', default='mongodb://localhost:27017/', type=str, required=False, action='store', help='Path to connect database')
+
     return parser.parse_args()
 
 
 if __name__ == "__main__":
+    args = get_args()
     runJIMrun = JIMServer(
-        db_path=str('mongodb://localhost:27017/'),
-        addr=str(get_args().address),
-        port=int(get_args().port)
+        db_path=args.db_path,
+        addr=args.address,
+        port=args.port
     )
 
     runJIMrun.init_server()

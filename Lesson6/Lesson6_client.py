@@ -3,34 +3,43 @@ import json
 import time
 import random
 import argparse
-from inspect import getmembers
-from pprint import pprint as pp
+import threading
+import pymongo
 from client_log_config import logger_cl as log
 from kivy.app import App
-from kivy.uix.label import Label
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.widget import Widget
-from kivy.properties import NumericProperty, BooleanProperty
-from kivy.uix.screenmanager import Builder, ScreenManager, Screen, SlideTransition
-from kivy.clock import Clock
-from kivy.event import EventDispatcher
 
-# def threaded(fn):
-#     def wrapper(*args, **kwargs):
-#         thread = threading.Thread(target=fn, args=args, kwargs=kwargs)
-#         thread.start()
-#         return thread
-#     return wrapper
+
+def threaded(fn):
+    def wrapper(*args, **kwargs):
+        thread = threading.Thread(target=fn, args=args, kwargs=kwargs)
+        thread.start()
+        return thread
+    return wrapper
+
+
+class DBmongo:
+    def __init__(self, addr):
+        self.db_path = addr
+        self.conn = pymongo.MongoClient(self.db_path)
+        self.db = self.conn['jim_db']
+
+    def get_allusers(self):
+        coll = self.db['users']
+        return coll.find()
+
+    def end(self):
+        return self.conn.close()
+
 
 class JIMClient:
-    def __init__(self, addr="localhost", port=7777):
+    def __init__(self, addr="localhost", port=7777, chat=None):
         self.JIMAddress = addr
         self.JIMPort = port
         self.data = None
         self.username = None
         self.userlogin = False
         self.socket = None
+        self.kivy_chat = chat
 
     def get_time(self):
         return time.time()
@@ -40,13 +49,6 @@ class JIMClient:
         name = random.choice(may_be)
         nikname = name + "_" + str(time.thread_time_ns())[2:5]
         return nikname
-
-    def connect_server(self):
-        try:
-            self.socket = socket(AF_INET, SOCK_STREAM)
-            self.socket.connect((self.JIMAddress, self.JIMPort))
-        except error as ex:
-            log.error("Error %s", ex)
 
     def user_presence(self, username, status):
         self.username = username
@@ -63,8 +65,15 @@ class JIMClient:
         #JIMMSG = "Hallou !"
         JIMMSG = json.dumps(template_user_present)
         log.debug(JIMMSG.encode("utf-8"))
-        return JIMMSG.encode("utf-8")
 
+        try:
+            self.socket = socket(AF_INET, SOCK_STREAM)
+            self.socket.connect((self.JIMAddress, self.JIMPort))
+            self.socket.send(JIMMSG.encode("utf-8"))
+        except error as ex:
+            log.error("Error %s", ex)
+
+    @threaded
     def send_message(self, to, msg):
         template_chat_message = {
             "action": "msg",
@@ -76,58 +85,24 @@ class JIMClient:
 
         JIMMSG = json.dumps(template_chat_message)
         log.debug(JIMMSG.encode("utf-8"))
-        self.sender.write(JIMMSG.encode("utf-8"))
 
-#    @threaded
-    async def type_message(self, chatname):
-        while not self.sender:
-            await asyncio.sleep(0.2)    # wait for connection
-        while True:
-            await asyncio.sleep(0.1)
-            data = input(f'{chatname}> ')
-            if data == 'exit':
-                break
-            self.send_message(chatname, data)
-
-    def receive(self):
-        # while True:
         try:
-            self.data = None
-            self.data = self.socket.recv(1000000).decode("utf-8")
-            if self.data != '':
-                self.data = str.replace(self.data, "}{", "}&&{")
-                for each in str.split(self.data, "&&"):
-                    self.srv_answer(each)
+            self.socket.send(JIMMSG.encode("utf-8"))
         except error as ex:
             log.error("Error %s", ex)
 
-#    @threaded
-    async def network_io(self):
-        self.data = None
-        try:
-            # Connect and user login
-            reader, writer = await asyncio.open_connection(self.JIMAddress, self.JIMPort)  # async socket connection
-            self.sender = writer
-            self.sender.write(runJIMrun.user_presence(self.get_random_nik(),
-                                                      "I am using JIM Messenger !"))   # Login new user
-            print("You are connected to server.")
-            print("Remeber! you are: " + self.username)
-
-            # Constantly receive new messages
-            while True:
-                self.data = (await reader.read(1000)).decode("utf-8")
+    @threaded
+    def receive(self):
+        while True:
+            try:
+                self.data = None
+                self.data = self.socket.recv(1000000).decode("utf-8")
                 if self.data != '':
                     self.data = str.replace(self.data, "}{", "}&&{")
                     for each in str.split(self.data, "&&"):
                         self.srv_answer(each)
-
-            self.sender.close()
-        except asyncio.CancelledError:
-            log.info("Connection.run was cancelled")
-        except ConnectionResetError as ex:
-            log.warning(f"Connection was reset: {ex}")
-        except error as ex:
-            log.error(f"Error receive data: {ex}")
+            except error as ex:
+                log.error("Error %s", ex)
 
     def srv_answer(self, giveme_data):
         try:
@@ -142,7 +117,7 @@ class JIMClient:
 
             if status_code < 400:
                 if status_code == 100:
-                    print(JIMANSW.get('alert'))
+                    self.kivy_chat.insert_text(str(JIMANSW.get('alert')).rstrip("|#mainchat|") + "\n")
                     log.debug(f"Message: {JIMANSW.get('alert')}")
                 if status_code == 200:
                     log.debug(f"User connect : {JIMANSW.get('alert')}")
@@ -155,42 +130,51 @@ def get_args():
     parser = argparse.ArgumentParser(
         description='JIM Server can be started on custom address and port'
     )
-    parser.add_argument('-a', '--address', default="0.0.0.0", required=False, action='store', help='Input ip address')
-    parser.add_argument('-p', '--port', default=7777, required=False, action='store', help='Input port')
+    parser.add_argument('-a', '--address', default="0.0.0.0", type=str, required=False, action='store', help='Input ip address')
+    parser.add_argument('-p', '--port', default=7777, type=int, required=False, action='store', help='Input port')
+    parser.add_argument('-db', '--db_path', default='mongodb://localhost:27017/', type=str, required=False, action='store', help='Path to connect database')
     return parser.parse_args()
-
-# class Main(BoxLayout):
-#     def __init__(self):
-#         super().__init__()
-#         #self.root.ids['user_input'].bind(on_text_validate=on_enter)
-#
-#         pp(getmembers(self))
-#
-#     def on_text_validate(self, instance, value):
-#         #if instance == "user_input":
-#         chatname = "#mainchat"
-#         print(chatname, value)
-#             #self.runJIMrun.send_message(chatname, value)
 
 
 class MyApp(App):
-    def __init__(self):
-        super().__init__()
-        self.runJIMrun = JIMClient(str(get_args().address), int(get_args().port))
-        Clock.create_trigger(self.runJIMrun.connect_server())
-        Clock.create_trigger(self.runJIMrun.user_presence(self.runJIMrun.get_random_nik(), "Haaaiii!!!"))
+    title = "JIM Chat messenger"
 
-    def build(self):
-        box = BoxLayout()
-        self.root.ids['user_input'].bind(on_text_validate=self.on_enter)
+    # def __init__(self):
+    #     super().__init__()
 
-        #Clock.schedule_interval(self.runJIMrun.receive, 0.1)
+    def on_start(self):
+        self.root.ids['user_input'].bind(on_text_validate=self.enter_message)
+        self.root.ids['send_msg'].bind()
+        self.get_users()
 
-        return box
+        self.runJIMrun = JIMClient(
+            str(get_args().address),
+            int(get_args().port),
+            self.root.ids['text_mainchat']
+            )
+        self.runJIMrun.user_presence(self.runJIMrun.get_random_nik(), "Haaaiii!!!")
+        self.runJIMrun.receive()
 
-    def on_enter(self, instance, value):
-         chatname = "#mainchat"
-         self.runJIMrun.send_message(chatname, value)
+    def get_users(self):
+        dbmongo = DBmongo(get_args().db_path)
+
+        users = ""
+        for user in dbmongo.get_allusers():
+            users = users + user['user'] + "\n"
+
+        self.root.ids['text_users'].text = users
+
+    def buttonpress(self):
+        uinput = self.root.ids['user_input']
+        chatname = "#mainchat"
+        self.runJIMrun.send_message(chatname, uinput.text)
+        uinput.text = ""
+
+
+    def enter_message(self, instance):
+        chatname = "#mainchat"
+        self.runJIMrun.send_message(chatname, instance.text)
+        instance.text = ""
 
 if __name__ == "__main__":
     MyApp().run()
