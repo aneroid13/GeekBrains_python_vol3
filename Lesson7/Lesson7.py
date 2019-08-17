@@ -7,7 +7,7 @@ from kivy.properties import NumericProperty, StringProperty, BooleanProperty, Li
 from kivy.clock import Clock
 from kivy.animation import Animation
 from kivy.uix.boxlayout import BoxLayout
-from kivy.garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
+#from kivy.garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
 
 
 # y=x*2-cos(x)
